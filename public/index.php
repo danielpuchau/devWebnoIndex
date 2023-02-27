@@ -76,7 +76,7 @@ $router->post('/finalizar-registro/conferencias', [RegistroController::class, 'c
 $router->get('/boleto', [RegistroController::class, 'boleto']);
 
 // Área Pública
-$router->get('/', [PaginasController::class, 'index']);
+$router->get('/indexlil', [PaginasController::class, 'index']);
 $router->get('/devwebcamp', [PaginasController::class, 'evento']);
 $router->get('/paquetes', [PaginasController::class, 'paquetes']);
 $router->get('/workshops-conferencias', [PaginasController::class, 'conferencias']);
